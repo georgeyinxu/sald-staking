@@ -12,7 +12,7 @@ if (process.env.DEPLOY_KEY) {
 }
 
 const config: HardhatUserConfig = {
-  solidity: "0.8.19",
+  solidity: "0.8.18",
   networks: {
     goerli: {
       url: process.env.RPC_URL_GOERLI,
